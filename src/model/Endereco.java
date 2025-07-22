@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Endereco implements Serializable {
     // Atributos privados (encapsulamento)
+    private int id; 
     private String cep;
     private String logradouro;
     private String numero;
@@ -15,7 +16,7 @@ public class Endereco implements Serializable {
     private String gia;
     private String ddd;
     private String siafi;
-    private int id; // Identificador único para o CRUD
+    
     
     // Construtor padrão
     public Endereco() {
